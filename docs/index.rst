@@ -5,6 +5,7 @@ wideface.ai
    :maxdepth: 2
    :caption: Contents:
 
+   authors
 
 
 Indices and tables
