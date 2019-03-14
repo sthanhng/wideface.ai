@@ -132,3 +132,6 @@ fabric.properties
 
 # Virtual Environment
 wideface.ai/
+
+# docs build
+_build/
