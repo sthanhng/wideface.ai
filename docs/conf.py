@@ -37,7 +37,7 @@ for mod_name in MOCK_MODULES:
 
 # -- Project information -----------------------------------------------------
 
-project = u'wideface.ai'
+project = u'wideface.ai (AI WideFace)'
 copyright = '%s, Thanh Nguyen' % str(datetime.datetime.now().year)
 author = u'Thanh Nguyen'
 

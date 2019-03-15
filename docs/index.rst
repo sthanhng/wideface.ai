@@ -3,9 +3,11 @@ wideface.ai
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    installation
+   examples/index
+   advanced_topics
+   releasenotes/index
    authors
 
 
