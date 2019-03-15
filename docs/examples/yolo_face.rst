@@ -51,19 +51,19 @@ There are many ways to install virtual environment (virtualenv), see the `Python
 
 **For Ubuntu**
 
-.. code-block:: bash
+.. code:: bash
 
     $ pip install virtualenv
 
 **For macOS**
 
-.. code-block:: bash
+.. code:: bash
 
     $ pip install --upgrade virtualenv
 
 Create a Python 3.6 virtual environment for this project and activate the virtualenv:
 
-.. code-block:: bash
+.. code:: bash
 
     $ virtualenv -p python3.6 yoloface
     $ source ./yoloface/bin/activate
