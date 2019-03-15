@@ -19,10 +19,15 @@ Contents
 Getting Started
 ***************
 
-The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection algorithm. The published model recognizes 80 different objects in images and videos. For more details, you can refer to this `paper`_.
+The YOLOv3 (You Only Look Once) is a state-of-the-art, real-time object detection algorithm. The published model recognizes 80 different objects in images and videos. For more details, you can refer to this `paper <https://pjreddie.com/media/files/papers/YOLOv3.pdf>`_.
 
 YOLOv3's Architecture
 *********************
+
+.. image:: ../assets/yolo-architecture.png
+    :alt: yolov3-architecture
+
+Credit: `Ayoosh Kathuria <https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b>`_
 
 OpenCV Deep Neural Networks (dnn module)
 ****************************************
@@ -42,7 +47,7 @@ Prerequisites
 
 .. note:: Development for this project will be isolated in Python virtual environment. This allows us to experiment with different versions of dependencies.
 
-There are many ways to install virtual environment (virtualenv), see the Python Virtual Environments: A Primer guide for different platforms, but here are a couple:
+There are many ways to install virtual environment (virtualenv), see the `Python Virtual Environments: A Primer <https://realpython.com/python-virtual-environments-a-primer/>`_ guide for different platforms, but here are a couple:
 
 **For Ubuntu**
 
@@ -78,7 +83,7 @@ Usage
 
     $ git clone https://github.com/sthanhng/yoloface
 
-2. For face detection, you should download the pre-trained YOLOv3 weights file which trained on the WIDER FACE: A Face Detection Benchmark dataset from this link and place it in the ``model-weights/`` directory.
+2. For face detection, you should download the pre-trained YOLOv3 weights file which trained on the `WIDER FACE: A Face Detection Benchmark <http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/index.html>`_ dataset from this link and place it in the ``model-weights/`` directory.
 
 
 3. Run the following command:
