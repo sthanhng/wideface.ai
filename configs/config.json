@@ -1,0 +1,45 @@
+{
+  "model": {
+    "backend": "Flex Face",
+    "dnn": "CAFFE_FP16",
+    "caffe_fp16": {
+      "model_file": "./models/res10_300x300_ssd_iter_140000_fp16.caffemodel",
+      "config_file": "./models/deploy.prototxt"
+    },
+    "caffe": {
+      "model_file": "./models/res10_300x300_ssd_iter_140000.caffemodel",
+      "config_file": "./models/deploy.prototxt.txt"
+    },
+    "tensorflow": {
+      "model_file": "./models/opencv_face_detector_uint8.pb",
+      "config_file": "./models/opencv_face_detector.pbtxt"
+    }
+  },
+  "dataset": {
+    "jpeg_images": "dataset/JpegImages",
+    "cropped_faces": "dataset/CroppedFaces",
+    "json": "dataset/json",
+    "aligned_faces": "dataset/AlignedFaces",
+    "videos": "dataset/videos"
+  },
+  "face_detect": {
+    "conf_threshold": 0.6,
+    "capture_dur": 15
+  },
+  "source": {
+    "local_src": 0,
+    "network_src": "rtsp://admin:admin123@hadishop.vncctv.info:81//cam/realmonitor?channel=4&subtype=0"
+  },
+  "dlib": {
+    "shape_predictor_68": "dlib/shape_predictor_68_face_landmarks.dat",
+    "shape_predictor_5": "dlib/shape_predictor_5_face_landmarks.dat"
+  },
+  "yolo": {
+    "model_file": "models/yolov3_face_16000.weights",
+    "config_file": "models/yolov3_face.cfg"
+  },
+  "lm_caffe": {
+    "model_file": "models/VanFace.caffemodel",
+    "config_file": "models/landmark_deploy.prototxt"
+  }
+}

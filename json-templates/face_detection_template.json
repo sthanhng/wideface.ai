@@ -1,0 +1,26 @@
+{
+  "data": {
+    "width": 300,
+    "height": 300,
+    "#faces": 2,
+    "name": "name_of_image",
+    "faces": [
+      {
+        "box": {
+          "left": 200,
+          "top": 29,
+          "right": 600,
+          "bottom": 800
+        }
+      },
+      {
+        "box": {
+          "left": 240,
+          "top": 26,
+          "right": 123,
+          "bottom": 456
+        }
+      }
+    ]
+  }
+}

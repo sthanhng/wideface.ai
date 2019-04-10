@@ -1,0 +1,20 @@
+{
+  "model": {
+    "backend": "Flex Face",
+    "input_size": 416, ,
+    "max_box_per_image": 10,
+    "caffe": {
+      "model_file": "./models/res10_300x300_ssd_iter_140000_fp16.caffemodel",
+      "config_file": "./models/deploy.prototxt"
+    },
+    "tensorflow": {
+      "model_file": "./models/opencv_face_detector_uint8.pb",
+      "config_file": "./models/opencv_face_detector.pbtxt"
+    },
+    "dataset": {
+      "jpeg_images": "dataset/JpegImages",
+      "cropped_faces": "dataset/CroppedFaces",
+      "json": "dataset/json"
+    }
+  }
+}
