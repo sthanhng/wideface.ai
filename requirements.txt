@@ -1,0 +1,11 @@
+opencv-python
+opencv-contrib-python
+pillow
+dlib
+numpy
+tensorflow-gpu==1.8
+scipy
+tensorflow==1.8
+sklearn
+six
+tqdm

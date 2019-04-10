@@ -129,9 +129,26 @@ fabric.properties
 ### wideface.ai ###
 # VSCode Settings
 .vscode/
+.idea/
+
+# Pycharm
+__pycache__/
 
 # Virtual Environment
 wideface.ai/
+venv/
 
 # docs build
 _build/
+
+# Dlib library
+dlib/
+
+# Datasets
+dataset/
+
+# Outputs
+outputs/
+
+# Models
+models/
